@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="facebook login page automate suite">
+  <test name="facebook login Test">
+  
+   <parameter name="env" value="QA"/>
+   
+   <parameter name="browser" value="chrome"/>
+   <parameter name="url" value="https://www.facebook.com/"/>
+   <parameter name="emailID" value="test@facebook.com"/>
+   <parameter name="pass" value="12345678"/>
+  
+  
+    <classes>
+      <class name="com.testng.ParameterTest"/>
+    </classes>
+    
+  </test> 
+  </suite>
+

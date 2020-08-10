@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [facebook login page automate suite]">
+  <test name="facebook login Test(failed)">
+    <parameter name="pass" value="12345678"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailID" value="test@facebook.com"/>
+    <parameter name="env" value="QA"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="com.testng.ParametersTest">
+        <methods>
+          <include name="FBlogintest"/>
+        </methods>
+      </class> <!-- com.testng.ParametersTest -->
+    </classes>
+  </test> <!-- facebook login Test(failed) -->
+</suite> <!-- Failed suite [facebook login page automate suite] -->

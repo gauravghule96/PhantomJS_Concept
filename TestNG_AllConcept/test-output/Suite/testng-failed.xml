@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailID" value="test@facebook.com"/>
+    <parameter name="env" value="QA"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="com.testng.ParametersTest">
+        <methods>
+          <include name="yahooligintest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.ParametersTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
